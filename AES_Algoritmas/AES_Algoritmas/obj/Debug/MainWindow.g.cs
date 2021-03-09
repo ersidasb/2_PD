@@ -75,55 +75,15 @@ namespace AES_Algoritmas {
         
         #line 14 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox textBoxKey;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 17 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.RadioButton radioButtonECB;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 18 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.RadioButton radioButtonCBC;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 20 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Label labelIV;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 21 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox textBoxIV;
         
         #line default
         #line hidden
         
         
-        #line 23 "..\..\MainWindow.xaml"
+        #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button buttonEncrypt;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 24 "..\..\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button buttonDecrypt;
+        internal System.Windows.Controls.TextBox textBoxKey;
         
         #line default
         #line hidden
@@ -171,25 +131,10 @@ namespace AES_Algoritmas {
             this.textBoxDecypherOutput = ((System.Windows.Controls.TextBox)(target));
             return;
             case 5:
-            this.textBoxKey = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 6:
-            this.radioButtonECB = ((System.Windows.Controls.RadioButton)(target));
-            return;
-            case 7:
-            this.radioButtonCBC = ((System.Windows.Controls.RadioButton)(target));
-            return;
-            case 8:
-            this.labelIV = ((System.Windows.Controls.Label)(target));
-            return;
-            case 9:
             this.textBoxIV = ((System.Windows.Controls.TextBox)(target));
             return;
-            case 10:
-            this.buttonEncrypt = ((System.Windows.Controls.Button)(target));
-            return;
-            case 11:
-            this.buttonDecrypt = ((System.Windows.Controls.Button)(target));
+            case 6:
+            this.textBoxKey = ((System.Windows.Controls.TextBox)(target));
             return;
             }
             this._contentLoaded = true;

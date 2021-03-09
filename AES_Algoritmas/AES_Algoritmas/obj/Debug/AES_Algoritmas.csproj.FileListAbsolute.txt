@@ -1,0 +1,15 @@
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\bin\Debug\AES_Algoritmas.exe.config
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\bin\Debug\AES_Algoritmas.exe
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\bin\Debug\AES_Algoritmas.pdb
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.csprojAssemblyReference.cache
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\MainWindow.g.cs
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\App.g.cs
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas_MarkupCompile.cache
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas_MarkupCompile.lref
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\MainWindow.baml
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.g.resources
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.Properties.Resources.resources
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.csproj.GenerateResource.cache
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.csproj.CoreCompileInputs.cache
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.exe
+C:\Users\ersid\Desktop\Kolegijai\2 kursas\2 semestras\saugumas\2_PD\AES_Algoritmas\AES_Algoritmas\obj\Debug\AES_Algoritmas.pdb

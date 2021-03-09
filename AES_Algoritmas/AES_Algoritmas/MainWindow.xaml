@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AES_Algoritmas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="576" Width="971.6" WindowStartupLocation="CenterScreen">
+    <Grid Margin="-1,0,0.6,-0.2">
+        <TextBox x:Name="textBoxCypherInput" HorizontalAlignment="Left" Height="177" Margin="24,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
+        <TextBox x:Name="textBoxCypherOutput" HorizontalAlignment="Left" Height="177" Margin="585,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
+        <TextBox x:Name="textBoxDecypherInput" HorizontalAlignment="Left" Height="177" Margin="24,351,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
+        <TextBox x:Name="textBoxDecypherOutput" HorizontalAlignment="Left" Height="177" Margin="585,350,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
+        <TextBox x:Name="textBoxKey" HorizontalAlignment="Left" Height="23" Margin="444,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Key:" HorizontalAlignment="Left" Margin="407,111,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,0.461"/>
+        <Grid HorizontalAlignment="Left" Height="87" Margin="388,148,0,0" VerticalAlignment="Top" Width="192">
+            <RadioButton x:Name="radioButtonECB" Content="ECB" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top" IsChecked="True"/>
+            <RadioButton x:Name="radioButtonCBC" Content="CBC" HorizontalAlignment="Left" Margin="55,30,0,0" VerticalAlignment="Top"/>
+            <Label Content="Mode:" HorizontalAlignment="Left" Margin="7,4,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,0.461"/>
+            <Label x:Name="labelIV" Content="IV:" HorizontalAlignment="Left" Margin="26,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,0.461"/>
+            <TextBox x:Name="textBoxIV" HorizontalAlignment="Left" Visibility="Visible" Height="23" Margin="55,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127"/>
+        </Grid>
+        <Button x:Name="buttonEncrypt" Content="Encrypt" HorizontalAlignment="Left" Margin="434,265,0,0" VerticalAlignment="Top" Width="85" Height="27"/>
+        <Button x:Name="buttonDecrypt" Content="Decrypt" HorizontalAlignment="Left" Margin="434,501,0,0" VerticalAlignment="Top" Width="85" Height="27"/>
+        <Label Content="AES Algorithm" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Input" HorizontalAlignment="Left" Margin="182,34,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="1.029,0.552"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="741,34,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
     </Grid>
 </Window>
