@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AES_Algoritmas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="576" Width="971.6" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="590.4" Width="971.6" WindowStartupLocation="CenterScreen">
     <Grid Margin="-1,0,0.6,-0.2">
         <TextBox x:Name="textBoxCypherInput" HorizontalAlignment="Left" Height="177" Margin="24,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
         <TextBox x:Name="textBoxCypherOutput" HorizontalAlignment="Left" Height="177" Margin="585,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="357" FontFamily="Consolas"/>
@@ -20,8 +20,8 @@
             <Label x:Name="labelIV" Content="IV:" HorizontalAlignment="Left" Margin="26,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.95,0.461"/>
             <TextBox x:Name="textBoxIV" HorizontalAlignment="Left" Visibility="Visible" Height="23" Margin="55,58,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="127"/>
         </Grid>
-        <Button x:Name="buttonEncrypt" Content="Encrypt" HorizontalAlignment="Left" Margin="434,265,0,0" VerticalAlignment="Top" Width="85" Height="27"/>
-        <Button x:Name="buttonDecrypt" Content="Decrypt" HorizontalAlignment="Left" Margin="434,501,0,0" VerticalAlignment="Top" Width="85" Height="27"/>
+        <Button x:Name="buttonEncrypt" Content="Encrypt" HorizontalAlignment="Left" Margin="434,265,0,0" VerticalAlignment="Top" Width="85" Height="27" Click="buttonEncrypt_Click"/>
+        <Button x:Name="buttonDecrypt" Content="Decrypt" HorizontalAlignment="Left" Margin="434,501,0,0" VerticalAlignment="Top" Width="85" Height="27" Click="buttonDecrypt_Click"/>
         <Label Content="AES Algorithm" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
         <Label Content="Input" HorizontalAlignment="Left" Margin="182,34,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" RenderTransformOrigin="1.029,0.552"/>
         <Label Content="Output" HorizontalAlignment="Left" Margin="741,34,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>

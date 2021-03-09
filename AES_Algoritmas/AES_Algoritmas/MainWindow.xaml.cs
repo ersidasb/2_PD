@@ -23,6 +23,40 @@ namespace AES_Algoritmas
         public MainWindow()
         {
             InitializeComponent();
+            textBoxIV.MaxLength = 16;
+            textBoxKey.MaxLength = 16;
+        }
+
+        private void buttonEncrypt_Click(object sender, RoutedEventArgs e)
+        {
+            int mode = 1;
+            if(radioButtonCBC.IsChecked==true)
+                mode = 2;
+            try
+            {
+                AES aes = new AES(textBoxKey.Text, textBoxIV.Text, mode);
+                textBoxCypherOutput.Text = aes.encrypt(textBoxCypherInput.Text);
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
+        }
+
+        private void buttonDecrypt_Click(object sender, RoutedEventArgs e)
+        {
+            int mode = 1;
+            if (radioButtonCBC.IsChecked == true)
+                mode = 2;
+            try
+            {
+                AES aes = new AES(textBoxKey.Text, textBoxIV.Text, mode);
+                textBoxDecypherOutput.Text = aes.decrypt(textBoxDecypherInput.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Decryption unsuccessful.");
+            }
         }
     }
 }
